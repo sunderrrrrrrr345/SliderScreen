@@ -1,0 +1,4 @@
+#Thu Dec 21 16:40:35 IST 2017
+base.0=E\:\\RelaxAppDetails21_6_2017\\Relaxation One Home\\Android-Intro-Slider-Screen-master\\SliderScreen\\SliderScreen\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex
