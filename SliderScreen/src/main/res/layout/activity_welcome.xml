@@ -5,7 +5,16 @@
     android:layout_height="match_parent"
     tools:showIn="@layout/activity_welcome">
 
-
+    <Button
+        android:id="@+id/btn_skip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/dots_margin_top"
+        android:layout_alignParentRight="true"
+        android:background="@null"
+        android:text="@string/skip"
+        android:textColor="@android:color/white" />
     <android.support.v4.view.ViewPager
         android:id="@+id/view_pager"
         android:layout_width="match_parent"
@@ -21,31 +30,26 @@
         android:orientation="horizontal">
     </LinearLayout>
 
-    <View
+  <!--  <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:alpha=".5"
         android:layout_above="@id/layoutDots"
-        android:background="@android:color/white" />
+        android:background="@android:color/white" />-->
 
-    <Button
+
+    <ImageView
         android:id="@+id/btn_next"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
         android:background="@null"
+        android:src="@mipmap/back_button"
+        android:layout_above="@id/layoutDots"
         android:text="@string/next"
         android:textColor="@android:color/white" />
 
-    <Button
-        android:id="@+id/btn_skip"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:background="@null"
-        android:text="@string/skip"
-        android:textColor="@android:color/white" />
+
+
 
 </RelativeLayout>
